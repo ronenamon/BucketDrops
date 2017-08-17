@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="192dp"
-        android:layout_height="192dp"
+        android:layout_width="@dimen/iv_logo_size"
+        android:layout_height="@dimen/iv_logo_size"
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
         android:layout_margin="84dp"/>
@@ -15,6 +15,7 @@
 
 
     <Button
+        android:background="@drawable/bg_btn_add_it"
         android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +29,8 @@
         android:paddingLeft="60dp"
         android:paddingRight="60dp"
         android:paddingTop="8dp"
-        android:paddingBottom="8dp"/>
+        android:paddingBottom="8dp"
+        android:textColor="@color/btn_add_color"/>
 
 
 
