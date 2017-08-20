@@ -81,8 +81,10 @@ public class DialogAdd extends DialogFragment {
         long now = System.currentTimeMillis();
 
 
-        RealmConfiguration config =  new RealmConfiguration.Builder(getActivity()).build();
-        Realm.setDefaultConfiguration(config);
+        //cutted
+        //RealmConfiguration config =  new RealmConfiguration.Builder(getActivity()).build();
+        //Realm.setDefaultConfiguration(config);
+        //end
 
         Realm realm = Realm.getDefaultInstance();
         Drop drop = new Drop(what,now , 0 , false);
